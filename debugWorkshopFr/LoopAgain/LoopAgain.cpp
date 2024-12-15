@@ -5,7 +5,7 @@ purpose: code asks user for a size, and prints the fibonachi sequence i think?
 execution: loop is infinite and its printing a bunch of numbers
 
 - because size is unsigned it overflows to the highest positive value allowed
-	[fix] change size to a signed int and yes it was fibonachi sequence im the goat
+	[fix] change size to a signed int and yes it was fibonachi sequence im the goat //
 
 */
 

@@ -19,7 +19,7 @@ char* safe_string_copy(char* dest, unsigned int destsize, char* src)
 void part2()
 {
 	char password[] = "secret";
-	char dest[BUF_SIZE];
+	char dest[BUF_SIZE] = "";
 	char src[] = "hello world!";
 
 	safe_string_copy(dest, BUF_SIZE, src);

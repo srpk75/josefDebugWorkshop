@@ -8,8 +8,8 @@ issues - doesnt print the points at all
 fixes:
 - add p1 and p2 to print [ISSUE: garbage values when printing point 2]
 - memcpy not copying data correctly, replaced memcpy with manual assignment, for more variables amounts use a for	loop
-* changed [Point p2 = p1;]
-- 
+* changed [Point p2 = p1;] [ISSUE: crashing on return]
+- fixed the copy constructor to use = 
 
 */
 
